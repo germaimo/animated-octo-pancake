@@ -33,3 +33,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # nextjs-boilerplate
+
+## Brief
+ Decidimos optar por un producto decorativo que apunta a generar tranquilidad, paz y armonía. En un contexto de estrés mundial y falta de espacios verdes, consideramos mostrar un producto que cubra estas necesidades.
+ 
+ Para mas detalles [google doc](https://docs.google.com/document/d/1tpgpn4kehF2w-wAIRThCT0NOhBwLLFxkTrx4kn2nFCc/edit?usp=sharing)
