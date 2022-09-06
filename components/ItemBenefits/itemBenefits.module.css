@@ -1,0 +1,28 @@
+.itemBenefit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+}
+
+.itemBenefit_icon {
+  background-color: #95ab63;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.itemBenefit_text h3 {
+  font: normal normal 300 25px/32px Europa;
+  color: #10222b;
+  margin-bottom: 6px;
+}
+
+.itemBenefit p {
+  font: normal normal 300 16px/20px Europa;
+  color: #95ab63;
+}
