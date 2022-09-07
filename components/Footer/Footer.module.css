@@ -1,0 +1,25 @@
+.title, .subtitle{
+    font-family: europa, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.subtitle{
+    font-size: 14px;
+}
+
+.footer_container{
+    background-color: #10222B;
+
+    text-align: center;
+    padding:89px;
+}
+
+.color{
+    color: #F6FFE0;
+}
+
+.space-icons{
+    margin-right: 1em;
+}
