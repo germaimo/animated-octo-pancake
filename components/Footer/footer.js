@@ -11,13 +11,13 @@ const Footer = () => {
         <a href="https://www.facebook.com" rel="noopener noreferrer">
           <FontAwesomeIcon
             icon={faFacebook}
-            className={`${styles['color']} ${styles['space-icons']}`}
+            className={`${styles['color']} ${styles['space-icons']} ${styles['facebook']}`}
           />
         </a>
         <a href="https://www.instagram.com" rel="noopener noreferrer">
           <FontAwesomeIcon
             icon={faInstagram}
-            className={`${styles['color']}`}
+            className={`${styles['color']} ${styles['instagram']}`}
           />
         </a>
       </div>
