@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className={`${styles['footer_container']}`}>
       <div>
@@ -29,4 +29,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
