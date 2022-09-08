@@ -2,7 +2,7 @@ Arguments:
   /usr/local/bin/node /usr/local/bin/yarn dev
 
 PATH: 
-  /Users/camidejtiar/Library/Android/sdk/emulator:/Users/camidejtiar/Library/Android/sdk/tools:/Users/camidejtiar/Library/Android/sdk/tools/bin:/Users/camidejtiar/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/camidejtiar/Library/Android/sdk/emulator:/Users/camidejtiar/Library/Android/sdk/tools:/Users/camidejtiar/Library/Android/sdk/tools/bin:/Users/camidejtiar/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/opt/gradle-7.2/bin:/opt/gradle-7.2/bin
+  /Users/ger/Library/Android/sdk/emulator:/Users/ger/Library/Android/sdk/tools:/Users/ger/Library/Android/sdk/tools/bin:/Users/ger/Library/Android/sdk/platform-tools:/opt/gradle-7.2/bin:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ger/Library/Android/sdk/emulator:/Users/ger/Library/Android/sdk/tools:/Users/ger/Library/Android/sdk/tools/bin:/Users/ger/Library/Android/sdk/platform-tools:/opt/gradle-7.2/bin:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin
 
 Yarn version: 
   1.22.17
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/camidejtiar/Desktop/progra/animated-octo-pancake/package.json: Unexpected token < in JSON at position 260
+  SyntaxError: /Users/ger/Documents/prog-3/animated-octo-pancake/package.json: Unexpected token < in JSON at position 312
       at JSON.parse (<anonymous>)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -34,17 +34,19 @@ npm manifest:
     },
     "dependencies": {
       "@fortawesome/fontawesome-svg-core": "^6.2.0",
-  <<<<<<< HEAD
       "@fortawesome/free-brands-svg-icons": "^6.2.0",
+  <<<<<<< HEAD
   =======
       "@fortawesome/free-regular-svg-icons": "^6.2.0",
-  >>>>>>> 680e139ae508a62273b29d2d57aef0da5717a8fb
+  >>>>>>> develop
       "@fortawesome/free-solid-svg-icons": "^6.2.0",
       "@fortawesome/react-fontawesome": "^0.2.0",
       "eslint-config-prettier": "^8.5.0",
       "eslint-plugin-prettier": "^4.2.1",
+      "install": "^0.13.0",
       "lint-staged": "^13.0.3",
       "next": "12.2.4",
+      "npm": "^8.19.1",
       "pre-commit": "^1.2.2",
       "prettier": "^2.7.1",
       "react": "18.2.0",
@@ -111,9 +113,15 @@ Lockfile:
     dependencies:
       "@fortawesome/fontawesome-common-types" "6.2.0"
   
+  <<<<<<< HEAD
+  "@fortawesome/free-brands-svg-icons@^6.2.0":
+    "integrity" "sha512-fm1y4NyZ2qKYNmYhdMz9VAWRw1Et7PMHNunSw3W0SVAwKwv6o0qiJworLH3Y9SnmhHzAymXJwCX1op22FFvGiA=="
+    "resolved" "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.2.0.tgz"
+  =======
   "@fortawesome/free-regular-svg-icons@^6.2.0":
     "integrity" "sha512-M1dG+PAmkYMTL9BSUHFXY5oaHwBYfHCPhbJ8qj8JELsc9XCrUJ6eEHWip4q0tE+h9C0DVyFkwIM9t7QYyCpprQ=="
     "resolved" "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.2.0.tgz"
+  >>>>>>> develop
     "version" "6.2.0"
     dependencies:
       "@fortawesome/fontawesome-common-types" "6.2.0"
