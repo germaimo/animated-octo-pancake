@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './navbar.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faSearch, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+//import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
   return (
@@ -29,35 +29,35 @@ const Navbar = () => {
       <ul className={styles.social}>
         <li>
           <a className={styles.itemsNav}>
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faSearch}
               style={{ fontSize: 15, color: 'white' }}
-            />
+            /> */}
           </a>
         </li>
 
         <li>
           <a className={styles.itemsNav}>
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: 15, color: 'white' }}
-            />
+            /> */}
           </a>
         </li>
         <li>
           <a className={styles.itemsNav}>
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faInstagram}
               style={{ fontSize: 15, color: 'white' }}
-            />
+            /> */}
           </a>
         </li>
         <li>
           <a className={styles.itemsNav}>
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faCartShopping}
               style={{ fontSize: 15, color: 'white' }}
-            />
+            /> */}
           </a>
         </li>
       </ul>
