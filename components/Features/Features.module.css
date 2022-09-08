@@ -1,5 +1,6 @@
 .features_container{
-    padding:0em 3em;
+    padding:0em 0em 0em 3em;
+    display: flex;
 }
 
 .section_title,
@@ -53,6 +54,18 @@
 }
 
 .bonsaimg{
-    width: 745px;
-    height: 659px;
+    position: absolute !important;
+    top: 15% !important;
+    left: -5% !important;
+    box-sizing: unset !important;
+    padding: 0 !important;
+    border: none !important;
+    margin: unset !important;
+    width: 745px !important;
+    height: 659px !important;
+    display: unset !important;
+    min-width: unset !important;
+    max-width: unset !important;
+    min-height: unset !important;
+    max-height: unset !important;
 }
