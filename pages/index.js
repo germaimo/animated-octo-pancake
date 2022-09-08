@@ -13,6 +13,10 @@ export default function Index() {
           rel="stylesheet"
           href="https://use.typekit.net/wxl3mdd.css"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/jfy4rte.css"
+        ></link>
       </Head>
 
       <main className={styles.main}>
