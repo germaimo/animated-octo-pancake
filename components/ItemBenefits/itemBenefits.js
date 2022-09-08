@@ -2,21 +2,19 @@ import React from 'react';
 import grid from '../../styles/grid.module.css';
 import styles from './itemBenefits.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb, faWind, faLeaf, faSmile } from '@fortawesome/free-regular-svg-icons';
 
-const ItemBenefits = (props) => {
-  console.log(props.icon)
+const ItemBenefits = ({ icon, title, text }) => {
   return (
     <div className={`${styles.itemBenefit}`}>
       <div className={`${styles.itemBenefit_icon}`}>
         <FontAwesomeIcon
-          icon={props.icon === "faLightbulb" ? faLightbulb : props.icon === "faWind" ? faWind : props.icon === "faLeaf" ? faLeaf : props.icon === "faSmile" ? faSmile : ""}
+          icon={icon}
           style={{ fontSize: 40, color: '#F6FFE0' }}
         />
       </div>
       <div className={`${styles.itemBenefit_text}`}>
-        <h3>{props.title}</h3>
-        <p>{props.text}</p>
+        <h3>{title}</h3>
+        <p>{text}</p>
       </div>
     </div>
   );

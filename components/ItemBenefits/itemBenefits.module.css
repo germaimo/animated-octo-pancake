@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: rgb(255, 255, 255);
+  margin: 2em 0em;
 }
 
 .itemBenefit_icon {
@@ -17,12 +17,18 @@
 }
 
 .itemBenefit_text h3 {
-  font: normal normal 300 25px/32px Europa;
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
   color: #10222b;
-  margin-bottom: 6px;
+  margin-bottom: 0.5em;
 }
 
 .itemBenefit p {
-  font: normal normal 300 16px/20px Europa;
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
   color: #95ab63;
 }
